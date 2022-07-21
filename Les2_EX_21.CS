@@ -24,7 +24,7 @@ class Program
       Console.Write("Введите координату z второй точки: ");
       double b_z = Convert.ToDouble(Console.ReadLine());
       
-      Console.WriteLine(Math.Round(points(a_x, a_y, a_z, b_x, b_y, b_z),2));
+      Console.WriteLine("Расстояние между точками введенных координат = "+Math.Round(points(a_x, a_y, a_z, b_x, b_y, b_z),2));
 
     }
 }
